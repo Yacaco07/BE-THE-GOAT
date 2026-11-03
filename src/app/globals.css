@@ -72,6 +72,6 @@ a {
 
 @media (max-width: 640px) {
   .shell {
-    width: min(100% - 32px, 1160px);
+    width: min(calc(100% - 32px), 1160px);
   }
 }
